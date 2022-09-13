@@ -1,8 +1,3 @@
-es (17 sloc)  369 Bytes
-
-#ifndef MAIN_H
-#define MAIN_H
-
 int _putchar(char c);
 void _print(int n);
 void print_alphabet(void);
@@ -17,5 +12,3 @@ void times_table(void);
 int add(int , int);
 void print_to_98(int);
 void print_times_table(int);
-
-#endif

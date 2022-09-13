@@ -1,12 +1,9 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * main - Program entry point
  *
  * Description: This is a program that will print the
- * the message "_putchar" to the screen followed by a
- * newline.
+ * the message "_putchar"
 * Return: Always 0 (If Successful)
  */
 int main(void)
