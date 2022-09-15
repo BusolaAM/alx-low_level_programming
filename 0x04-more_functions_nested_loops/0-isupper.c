@@ -1,7 +1,4 @@
-#endif /* MAIN_H */
-
 #include "main.h"
-
 /**
  * _isupper - check uppercase alphabets
  * @c: character
