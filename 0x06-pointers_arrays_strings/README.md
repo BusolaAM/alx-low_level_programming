@@ -1,1 +1,1 @@
-This README file is for the C-pointers_arrays_strings project
+This README file lsis for the C-pointers_arrays_strings project
