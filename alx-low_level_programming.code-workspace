@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "alx-system_engineering-devops",
+			"path": "../alx-system_engineering-devops"
+		},
+		{
+			"name": "zero_day",
+			"path": "../zero_day"
+		},
+		{
+			"name": "alx-zero_day",
+			"path": "../alx-zero_day"
+		},
+		{
+			"name": "alx-pre_course",
+			"path": "../alx-pre_course"
+		},
+		{
+			"name": "alxprecourse_1",
+			"path": "../alxprecourse_1"
+		}
+	],
+	"settings": {}
+}
