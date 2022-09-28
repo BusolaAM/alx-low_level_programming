@@ -1,4 +1,5 @@
-This README file is for the ALX-low_programming project. Here you will find the following projects;
+# This file is for the ALX-low_programming project. Here you will find the following projects
+
 0x00=hello_world
 0x01-variables_if_else_while
 0x02-functions_nested_loops
@@ -6,3 +7,5 @@ This README file is for the ALX-low_programming project. Here you will find the 
 0x04-more_functions_nested_loops
 0x05-pointers_arrays_strings
 0x06-pointers_arrays_strings
+0x07-pointers_arrays_strings
+0x08-recursion
