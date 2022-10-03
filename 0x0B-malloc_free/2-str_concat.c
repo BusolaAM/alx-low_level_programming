@@ -2,38 +2,44 @@
 #include "main.h"
 
 /**
-* _strdup - create a pointer to a new string
-* which is a duplicate of the string str.
-* Memory for the new string is obtained with malloc.
+* str_concat - function that concatenates two strings,
+* using dynamic memory allocation (malloc).
 *
-* @str: a pointer to string
+* @s1: a pointer to 1st string
+* @s2: a pointer to 2nd string
 *
-* Return:  a pointer to the array, or NULL if it fails.
+* Return:  a pointer to the string, or NULL if it fails.
 */
 
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2)
 {
-	char *newstr;
-	unsigned int i, size = 0;
+	char *newstr, *temp;
+	unsigned int size, size1 = 0, size2 = 0, i = 0;
 
-	if (!str)
-	{
-		return (NULL);
-	}
-
-	while (*(str + size++))
-		;
-
-	newstr = malloc(size * sizeof(char));
-	if (newstr == NULL)
-	{
-		return (NULL);
-	}
+	if (!s1)
+		s1 = "";
 	else
-	{
-		for (i = 0; i < size; ++i)
-			newstr[i] = str[i];
-	}
+		while (*(s1 + size1++))
+			;
+
+	if (!s2)
+		s2 = "";
+	else
+		while (*(s2 + size2++))
+			;
+
+	size = size1 + size2 - 1;
+	newstr = malloc(size * sizeof(char));
+
+	if (!newstr)
+		return (NULL);
+
+	temp = newstr;
+	while (*s1)
+		*temp++ = *s1++;
+
+	while (*s2)
+		*temp++ = *s2++;
 
 return (newstr);
 }
