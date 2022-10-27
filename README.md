@@ -26,7 +26,7 @@
 
 0x13-more_singly_linked_lists
 
-0x14-
+0x14-bit_manipulation
 
 0x0A-argc_argv
 
