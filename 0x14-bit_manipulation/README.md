@@ -1,20 +1,19 @@
 # This file is for the C - Bit manipulation project. Here you will find the following
 
-"main.h" = Contains prototypes for the project
+"main.h" = Contains prototypes for the project (the header file)
 
-0-binary_to_uint.c  = Converts a binary number to an unsigned int
+0-binary_to_uint.c  = A function that converts a binary number to an unsigned int
 
-1-print_binary.c = Prints the binary representation of a number
+1-print_binary.c = A function that prints the binary representation of a number
 
-2-get_bit.c = Returns the value of a bit at a given index
+2-get_bit.c = A function that returns the value of a bit at a given index
 
-3-set_bit.c = Sets the value of a bit to 1 at a given index
+3-set_bit.c = A function that sets the value of a bit to 1 at a given index
 
-4-clear_bit.c  = Sets the value of a bit to 0 at a given index
+4-clear_bit.c  = A function that sets the value of a bit to 0 at a given index
 
-5-flip_bits.c =  Returns the number of bits you would need to flip to get from one number to another
+5-flip_bits.c =  A function that returns the number of bits you would need to flip to get from one number to another
 
-100-get_endianness.c  = Checks the endianness
+100-get_endianness.c  = A function that checks the endianness
 
-101-password  = Crackme3
-
+101-password  = Crackme3 (password for this program)
