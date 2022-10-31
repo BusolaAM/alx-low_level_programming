@@ -1,6 +1,5 @@
 # This file is for the C - File I/O project. Here you will find the following files
 
-
 "main.h" = Contains prototypes for the project (the header file)
 
 
