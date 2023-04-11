@@ -1,4 +1,5 @@
-s is the README file for C Programming 0x02-functions_nested_loops. In this file, you will find the following;
+# This the README file for C Programming 0x02-functions_nested_loops. In this file, you will find the following;
+
 0-putchar.c *a program that prints _putchar, followed by a new line*
 
 1-alphabet.c *a function that prints the alphabet, in lowercase, followed by a new line*
